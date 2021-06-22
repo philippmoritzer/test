@@ -1,5 +1,5 @@
 <?php
-echo 'hallo welt';
+
 define('VACCINE_NAME_BACKLIST', ['AstraZeneca', 'Johnson&Johnson']);
 define('ZIP_CODE', '49393');
 define('BIRTHDATE', '620431200000');
@@ -22,6 +22,7 @@ $err = curl_error($curl);
 
 curl_close($curl);
 
+echo 'hallo welt';
 if ($err) {
     error_log("cURL Error beim Laden des Impfangebotes #:" . $err);
 } else {
