@@ -19,7 +19,7 @@ curl_setopt_array($curl, [
 
 $response = curl_exec($curl);
 $err = curl_error($curl);
-
+echo $response
 curl_close($curl);
 
 if ($err) {
