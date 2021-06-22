@@ -1,7 +1,7 @@
 <?php
 echo 'hallo welt';
 define('VACCINE_NAME_BACKLIST', ['AstraZeneca', 'Johnson&Johnson']);
-define('ZIP_CODE', '27804');
+define('ZIP_CODE', '49393');
 define('BIRTHDATE', '620431200000');
 
 $curl = curl_init();
